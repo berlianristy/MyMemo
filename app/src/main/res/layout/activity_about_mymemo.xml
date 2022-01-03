@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:background="#F1F1F1"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    tools:context=".AboutMymemoActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="About My Memo"
+        android:textColor="#4037B2"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageButton
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/iconpanah">
+
+    </ImageButton>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logomymemo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="          My Memo is a reminder App in which there are To Do Lists, Sleep Reminders, and Diary. It is expected to help users manage time and write their daily lives on it. It is so easy to use the user because the features are so clear that the user doesn’t need to be confused about accessing them."
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="#000000">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Before creating this App, we were already doing research on the application that people curently need. From our research, there are a lot young people who are forgetful and cannot time themselves. So we want to create an application that can tax time on which there are features To Do List, Sleep Reminders, and Diary. One such survey led to failure of young people to focus on their activities as a result of their lack of sleep and lack of focus."
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="normal">
+
+    </TextView>
+</LinearLayout>

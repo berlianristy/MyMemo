@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#798AF6"
+        android:text="Policy"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_marginRight="60dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:text="What type of information do we collect" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="        The things you do in each of our features collect the information you provide when you use our products, including you create a list of activities, add (photos, images that are already available from your device and Documents when you need them), set reminders for each activity. that you have set, set a sleep reminder and a Diary note that you write. This includes the function and purpose of our product for users such as the feature of creating activities based on categories according to your wishes, creating reminders of activities that you have made, documenting activities that you have done in a note (Diary), making reminders of your sleep" />
+
+
+</LinearLayout>

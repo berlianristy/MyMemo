@@ -7,20 +7,20 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FaqActivity extends AppCompatActivity {
+public class PolicyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_faq);
+        setContentView(R.layout.activity_policy);
 
-        ImageButton kembali = (ImageButton) findViewById(R.id.backButton);
+        ImageButton panah = (ImageButton) findViewById(R.id.imgbtn_panah);
 
-        kembali.setOnClickListener(new View.OnClickListener() {
+        panah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent ikembali = new Intent(FaqActivity.this, SettingActivity.class);
-                startActivity(ikembali);
+                Intent ipanah = new Intent(PolicyActivity.this, SettingActivity.class);
+                startActivity(ipanah);
             }
         });
     }

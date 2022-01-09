@@ -5,38 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:background="#F1F1F1"
+    tools:context=".PolicyActivity">
 
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
 
     <TextView
         android:id="@+id/textView_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="#798AF6"
+        android:textColor="#4037B2"
         android:text="Policy"
-        android:textSize="16dp"
-        android:layout_marginTop="20dp"
+        android:textSize="16sp"
         android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn_panah"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:minHeight="48dp"
+        android:background="#F1F1F1"
+        app:srcCompat="@drawable/backbutton3"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60sp"
-        android:layout_marginRight="60dp"
+        android:layout_marginLeft="16dp"
         android:gravity="left"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:text="What type of information do we collect" />
 
     <TextView
         android:id="@+id/textView_2"
-        android:layout_width="391dp"
+        android:layout_width="385dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:justificationMode="inter_word"
         android:text="        The things you do in each of our features collect the information you provide when you use our products, including you create a list of activities, add (photos, images that are already available from your device and Documents when you need them), set reminders for each activity. that you have set, set a sleep reminder and a Diary note that you write. This includes the function and purpose of our product for users such as the feature of creating activities based on categories according to your wishes, creating reminders of activities that you have made, documenting activities that you have done in a note (Diary), making reminders of your sleep" />
+
+
 
 
 </LinearLayout>

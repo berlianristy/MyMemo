@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60sp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginLeft="20dp"
         android:gravity="left"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -45,7 +45,7 @@
 
     <TextView
         android:id="@+id/textView_2"
-        android:layout_width="385dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"

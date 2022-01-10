@@ -43,7 +43,7 @@
     </ImageView>
 
     <TextView
-        android:layout_width="385dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="          My Memo is a reminder App in which there are To Do Lists, Sleep Reminders, and Diary. It is expected to help users manage time and write their daily lives on it. It is so easy to use the user because the features are so clear that the user doesn’t need to be confused about accessing them."
@@ -60,7 +60,7 @@
 
     <TextView
         android:id="@+id/text_2"
-        android:layout_width="380dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="      Before creating this App, we were already doing research on the application that people curently need. From our research, there are a lot young people who are forgetful and cannot time themselves. So we want to create an application that can tax time on which there are features To Do List, Sleep Reminders, and Diary. One such survey led to failure of young people to focus on their activities as a result of their lack of sleep and lack of focus."

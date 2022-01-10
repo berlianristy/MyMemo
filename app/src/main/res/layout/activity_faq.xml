@@ -32,11 +32,70 @@
     android:layout_width="match_parent"
     android:layout_height="40dp" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/faqview1" />
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:text="Bagaimana cara aplikasi ini memberikan pengingat kegiatan dan waktu tidur ?" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Untuk pengingat kegiatan: Aplikasi ini otomatis akan memberikan Notifikasi yang akan muncul pada jendela perangkat anda berdasarkan pengingat kegiatan yang telah anda tentukan sebelumnya."
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Untuk pengingat Waktu tidur dan bangun tidur: Aplikasi ini akan otomatis mengeluarkan pengingat dalam bentuk alarm pada perangkat anda berdasarkan pengingat tidur yang telah anda tentukan sebelumnya."
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana cara aplikasi ini menghapus Diary yang sudah kita tulis sebelumnya?"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:text="
+Untuk Menghapus tulisan Diary : Pengguna membuka halaman tampilan awal Diary kemudian geser ke kiri pada bagian yang ingin di hapus akan muncul ikon keranjang sampah kemudian klik maka diary anda akan langsung terhapus."
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"/>
 
 
 </LinearLayout>

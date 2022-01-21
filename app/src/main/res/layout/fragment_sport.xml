@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    tools:context=".fragment.sportFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_btn_semua"
+                android:background="@null"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+                android:id="@+id/buttonAll"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:src="@drawable/ic_btn_personal"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:id="@+id/buttonPersonal"/>
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_btn_shop"
+                android:background="@null"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:id="@+id/buttonShop"/>
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_btn_event"
+                android:background="@null"
+                android:id="@+id/buttonEvent"/>
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:src="@drawable/ic_btn_sportbiru"
+                android:id="@+id/buttonSport"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

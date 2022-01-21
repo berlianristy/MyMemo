@@ -1,18 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:scrollbars="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="#F1F1F1">
 
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/batal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/btnbatal"
+            app:srcCompat="@drawable/btnbatal"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="95dp"
+            android:layout_marginLeft="95dp"
+            android:text="Add Task"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/btnselesai"
+            app:srcCompat="@drawable/btnselesai"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    </Toolbar>
+
+
+
+    <EditText
+        android:id="@+id/txt_personal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:background="@drawable/background"
+        android:hint="personal"
+        android:textColorHint="@color/black"
+        android:editable="false"
+        android:focusable="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:minHeight="48dp"
+            android:background="@drawable/background"
+            android:hint="Title"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:inputType="textMultiLine"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="8dp"
+            android:text="There is no attachment here"
+            android:textColor="#99A799"/>
+
+
+
+    <EditText
+        android:id="@+id/txt_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:editable="false"
+        android:focusable="false"
+        android:hint="     Choose Reminder"
+        android:text="     Choose Reminder"
+        android:drawableLeft="@drawable/ic_vektor_remind"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/txt_jam"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:background="#FFFFFF"
+        android:editable="false"
+        android:drawableLeft="@drawable/ic_vektor_time"
+        android:focusable="false"
+        android:textColor="@color/black"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="     Time"
+        android:hint="     Time"
+        android:layout_marginBottom="5dp"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+    <EditText
+        android:id="@+id/txt_attach"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:background="#FFFFFF"
+        android:editable="false"
+        android:drawableLeft="@drawable/ic_vektor_attach"
+        android:focusable="false"
+        android:textColor="@color/black"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="    Attachment"
+        android:hint="    Attachment"
+        android:layout_marginBottom="50dp"
+
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:background="@drawable/ic_upload"
+        app:srcCompat="@drawable/ic_upload"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:textAlignment="center"
+        android:text="There is no attachment here"
+        android:textColor="#99A799"/>
+
+
+</LinearLayout>
+
+</ScrollView>

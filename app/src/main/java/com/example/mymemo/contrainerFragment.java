@@ -7,11 +7,11 @@ import android.widget.ImageButton;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.fragment_mymemo.fragment.allFragment;
-import com.example.fragment_mymemo.fragment.eventFragment;
-import com.example.fragment_mymemo.fragment.personalFragment;
-import com.example.fragment_mymemo.fragment.shoppingFragment;
-import com.example.fragment_mymemo.fragment.sportFragment;
+import com.example.mymemo.fragment.allFragment;
+import com.example.mymemo.fragment.eventFragment;
+import com.example.mymemo.fragment.personalFragment;
+import com.example.mymemo.fragment.shoppingFragment;
+import com.example.mymemo.fragment.sportFragment;
 
 public class contrainerFragment extends FragmentActivity implements View.OnClickListener {
     ImageButton buttonSemua, buttonShop, buttonEvent, buttonPersonal, buttonSport;

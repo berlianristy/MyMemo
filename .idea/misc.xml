@@ -14,11 +14,25 @@
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/mymemo/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/tori/AndroidStudioProjects/MyMemo2/app/src/main/res/layout/activity_about_mymemo.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/tori/AndroidStudioProjects/MyMemo2/app/src/main/res/layout/activity_faq.xml" value="0.12771739130434784" />
+        <entry key="app/src/main/res/layout/activity_about_mymemo.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/activity_beranda.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_contrainer_fragment.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/activity_faq.xml" value="0.21739130434782608" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_policy.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/activity_screen_pengingat.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/android_11.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/android_19.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/calendar.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/fragment_all.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/fragment_event.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/fragment_personal.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/fragment_sport.xml" value="0.21739130434782608" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

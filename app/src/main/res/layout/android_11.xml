@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/back"
+                android:background="@drawable/backbutton3"
                 android:minWidth="30dp"
                 android:minHeight="30dp"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
